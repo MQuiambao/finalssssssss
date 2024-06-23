@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta here -->
+    <meta charset="UTF-8">
+    <meta name = "author" content= "Mariane Quiambao">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Augmented Reality</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <div class="bg-cover bg-center" style="background-image: url('https://static.vecteezy.com/system/resources/thumbnails/010/599/697/small/abstract-smooth-curve-line-on-pink-gradient-lighting-color-background-vector.jpg');">
+      <nav class="border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="C:\Users\yhang\Downloads\appdev-fl2-main\index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="https://cdn-icons-png.flaticon.com/512/7760/7760613.png" class="h-12" alt="" />
+        </a>
+        <div class="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-3">
+          <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-black bg-white md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md: dark:bg-gray-800 md:dark:bg-purple-700 dark:border-gray-700">
+            <li>
+              <a href="C:\Users\yhang\Downloads\appdev-fl2-main\home.html" class="block py-2 px-3 text-white bg-purple-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-purple-600" aria-current="page">Home</a></li>
+            <li>
+              <a href="C:\Users\yhang\Downloads\appdev-fl2-main\pages\contact.html" class="block py-2 px-3 text-white bg-purple-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-purple-600" aria-current="page">Contact</a>
+            </li>
+            <li>
+              <a href="C:\Users\yhang\Downloads\appdev-fl2-main\pages\download.html" class="block py-2 px-3 text-white bg-purple-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-purple-600" aria-current="page">Download</a>
+            </li>
+            <li>
+              <a href="C:\Users\yhang\Downloads\appdev-fl2-main\pages\about.html" class="block py-2 px-3 text-white bg-purple-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-purple-600" aria-current="page">About</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+ 
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="sm:hidden" id="mobile-menu">
+          <div class="space-y-1 px-2 pb-3 pt-2">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">About</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Download</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Services</a>
+          </div>
+        </div>
+      </nav>
+    <!--carousel-->
+    <section>
+    <div class="max-w-4lg mx-full">
+ 
+      <div id="default-carousel" class="relative" data-carousel="static">
+         
+            <div class="overflow-hidden relative h-60 sm:h-64 xl:h-80 2xl:h-">
+               
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl ">Primer Slide</span>
+                    <img src="https://www.ediiie.com/blog/assets/admin/uploads/Augmented-reality-social-media.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                </div>
+               
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://icsblog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2023/07/28222750/ImageForArticle_763_16466591728756796.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                </div>
+               
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://www.inkling.com/wp-content/uploads/2022/12/The-Power-of-Augmented-Reality-Making-the-World-Your-Learning-Context-blog-image-1024x535.png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                </div>
+            </div>
+
+            <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+            </div>
+           
+            <button type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
+                <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30  group-focus:ring-4 group-focus:ring-white  group-focus:outline-none">
+                    <svg class="w-5 h-5 text-white sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                    <span class="hidden"></span>
+                </span>
+            </button>
+            <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
+                <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 0 group-focus:ring-4 group-focus:ring-white  group-focus:outline-none">
+                    <svg class="w-5 h-5 text-white sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    <span class="hidden"></span>
+                </span>
+            </button>
+        </div>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="mb-40 section-container">
+<br><br><br>
+        <h1 class="text-purple-600 text-center text-5xl">Welcome to Augmented Reality!</h1>
+<br>
+        <p class="mb-10 text-s text-center text-black section-content">
+          A technology known as augmented reality (AR) projects digital content, such pictures, movies, or three-dimensional (3D) models, This technology uses digital content—which is usually viewed through a smartphone or specialized AR headset—overlay the real world to improve the user's impression of it. Augmented Reality (AR) technology offers immersive and interactive experiences across a range of industries, including gaming, education, healthcare, retail, and marketing.
+        </p>
+
+    <!-- Features Section -->
+    <section id="features">
+      <div class="my-20 section-container">
+        <div class="relative flex flex-col md:flex-row md:space-x-32">
+          <!-- Image -->
+          <div class="w-13 col-md-6 align-middle">
+            <img
+              src="https://vakoms.com/wp-content/uploads/2018/04/1_K4v3T5GcJVDAxm3IOJ9mQw.jpeg"
+              alt=""
+              class="col-md-6 align-middle"
+            />
+          </div>
+ 
+            <!-- Item 1 -->
+              <div>
+                <p class="text-purple-600 text-2xl font-bold">LOCATION-BASED AR</p>
+                <br>
+                <p class="max-w-md text-black">
+                  Also known as markerless, position-based, or geo-based AR, is a type of AR that activates based on your physical location.  Unlike marker-based AR which relies on scanning QR codes or specific images, location-based AR uses your device's GPS, compass, and other sensors to pinpoint your whereabouts and trigger AR experiences.                </p>
+                <br>
+                  <a href="C:\Users\yhang\Downloads\appdev-fl2-main\pages\learnmore.html" class="p-2 px-4 hover:bg-purple-700 duration-200  border-outline border-black rounded-xl text-white bg-purple-700">Learn more</a>
+
+                </div>
+              </div>
+                  </section>
+
+        <div class="my-20 section-container">
+          <div class="relative flex flex-col md:flex-row md:space-x-30">
+            <!-- Image -->
+            <div class="md:w-1/8">
+              <img
+                src="https://www.ikea.com/global/en/images/484828_b4450698dc.jpg"  width="500" height="400"
+                alt=""
+                class="md:absolute top-10 left-[50%]"
+              />
+            </div>
+            <div class="flex flex-col mt-5 mb-20 space-y-10 text-xl md:w-1/2 md:mb-60 md:text-left md:pl-26">
+              <!-- Item 2 -->
+              <div class="col-md-6 align-middle text-start">
+              <p class="text-purple-600 text-center text-2xl font-bold">IKEA PLACE AR(Android, iOS)</p>
+              <br>
+              <p class="max-w-md text-center text-black">
+                Free augmented reality (AR) app that allows you to virtually place IKEA furniture in your home before you buy it. This can be a great way to see how furniture will look in your space and ensure that it fits the way you want it to. The app is available for both Android and iOS devices.
+              </p>
+              <br>            
+              <a href="C:\Users\yhang\Downloads\appdev-fl2-main\pages\learnmore2.html" class="p-2 px-4 hover:bg-purple-700 duration-200 text-center border-outline border-black rounded-xl text-white bg-purple-700">Learn more</a>
+          
+   
+    </section>
+  </div>
+  
+          <!--map-->
+    <section class="flex flex-col items-center my-50">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424146.70774619817!2d150.6023147506982!3d-33.847234839500416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20NSW%2C%20Australia!5e0!3m2!1sen!2sph!4v1717500754546!5m2!1sen!2sph" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </section>
+ <br>
+
+ <!--footer-->
+ <footer class="text-center bg-pink-300 lg:text-left">
+  <div class="bg-black/5 p-4 text-center text-surface dark:text-white">
+    © 2024 Mariane Quiambao. All Rights Reserved.
+  </div>
+</footer>
+ </div>
+      </div>
+    </div>
+    </section>
+  </div>
+</section>
+</div>
+</body>
+ </html>
+ 
